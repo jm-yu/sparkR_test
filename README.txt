@@ -1,8 +1,8 @@
-Docker + RStudio + R
-set up RStudio server and Spark. Compare the performance of some operations.
+Docker + RStudio + sparkR
+set up RStudio server with SparkR. Compare the performance of some operations of sparkR and R.
 
 
-set up RStudio with Spark server:
+set up RStudio server with SparkR:
 
 $docker run -d -v /Users/jmyu:/home/rstudio -p 8787:8787 --name sparkrstudio vinicius85/sparkr-rstudio
 
